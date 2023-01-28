@@ -17,7 +17,7 @@ const renderButton = (customProps = {}) => {
   render(<Button {...componentProps} />);
 };
 
-describe("ButtonWithDisable", () => {
+describe("Button", () => {
   afterEach(() => {
     jest.resetAllMocks();
   });
